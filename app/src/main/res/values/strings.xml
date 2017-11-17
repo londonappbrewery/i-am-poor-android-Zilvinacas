@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">I Am Poor</string>
-    <string name="img1">Coal</string>
     <string name="text_i_am">I am</string>
+    <string name="image_coal">coal</string>
     <string name="text_poor">Poor</string>
 
 </resources>

@@ -12,15 +12,15 @@
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/text_I_am"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginEnd="12dp"
         android:layout_marginRight="12dp"
-        android:layout_marginTop="54dp"
-        android:layout_toLeftOf="@+id/textView2"
-        android:layout_toStartOf="@+id/textView2"
+        android:layout_marginTop="52dp"
+        android:layout_toLeftOf="@+id/text_poor"
+        android:layout_toStartOf="@+id/text_poor"
         android:fontFamily="casual"
         android:text="@string/text_i_am"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -28,15 +28,15 @@
         android:textSize="40sp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/text_poor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView"
-        android:layout_alignBottom="@+id/textView"
-        android:layout_alignEnd="@+id/imageView"
-        android:layout_alignRight="@+id/imageView"
-        android:layout_marginEnd="39dp"
-        android:layout_marginRight="39dp"
+        android:layout_alignBaseline="@+id/text_I_am"
+        android:layout_alignBottom="@+id/text_I_am"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
         android:fontFamily="casual"
         android:text="@string/text_poor"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -45,13 +45,13 @@
         android:textStyle="bold" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="270dp"
-        android:layout_height="270dp"
-        android:layout_below="@+id/textView"
+        android:id="@+id/image_coal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="49dp"
-        android:contentDescription="@string/img1"
-        app:srcCompat="@drawable/coal"
-        tools:layout_alignParentLeft="false" />
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/text_I_am"
+        app:srcCompat="@drawable/coal">
+
+    </ImageView>
 </RelativeLayout>
